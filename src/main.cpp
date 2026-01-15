@@ -101,6 +101,10 @@ int main()
         std::cout << "Shader Linking failed.\n" << infoLog << std::endl;
     }
 
+    // Using the program then deleting unnecessary shaders to avoid overuse of memory
+
+    glUseProgram(shaderProgram);
+
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
