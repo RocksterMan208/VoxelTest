@@ -3,6 +3,7 @@ I'm making a voxel engine at the reccomendation of a friend of mine who encourag
 
 # How to compile and use
 ### Ensure you have GLFW installed and (at the moment) are on a Linux-based system
+### GLAD is included with this git repo and does NOT need to be included manually.
 #
 ### To install the GLFW dependency:
 ## On the main Debian operating systems:
@@ -33,5 +34,6 @@ Now that you are in the folder, you can use the makefile by running:
 make run
 ```
 And as long as you have GCC and G++ installed, the code will compile and run automatically.
+I am planning on making a CMAKE profile to allow for Windows users to compile and run the code.
 #
 ## Any further use of the program can be executed without compiling by simply double clicking on the executeable file called "play"
